@@ -1,0 +1,45 @@
+# v1.0.0 — Primeira versão estável
+
+Automação para Windows criada para auxiliar no uso do recurso de transmissão do Discord.
+
+O script conecta temporariamente ao Proton VPN, reinicia o Discord e, depois, desconecta a VPN e confirma o retorno da conexão normal.
+
+A automação prepara o Discord, mas não inicia a transmissão automaticamente.
+
+## Download
+
+Baixe e extraia:
+`automacao-proton-discord-v1.0.0.zip`
+
+## Primeiro uso
+
+Antes da primeira execução:
+
+1. Ative a conexão automática no Proton VPN.
+2. Configure o Kill Switch como `Standard` ou `Off`.
+3. Não utilize o modo `Advanced`.
+
+Essa configuração precisa ser realizada somente uma vez.
+
+## Uso normal
+
+1. Abra o Discord.
+2. Execute `executar.bat`.
+3. Confirme a permissão de administrador.
+4. Aguarde a conclusão.
+5. Volte ao Discord e inicie sua transmissão.
+
+## Observações
+
+- Não execute o BAT diretamente de dentro do ZIP.
+- Não feche o Proton ou o Discord durante a automação.
+- `ProtonVPNService` pode continuar no Gerenciador de Tarefas.
+- Atualizações do Discord ou Proton podem exigir ajustes.
+
+## Licença
+
+Distribuído sob a licença MIT.
+
+## Autor
+
+Desenvolvido por [@mateuspserra](https://github.com/mateuspserra).

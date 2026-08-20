@@ -1,0 +1,53 @@
+============================================================
+TUTORIAL BASICO
+============================================================
+
+REQUISITOS
+----------
+
+- Windows 10 ou Windows 11;
+- Discord Desktop;
+- Proton VPN.
+
+O Windows PowerShell 5.1 ja acompanha o Windows.
+
+
+CONFIGURACAO DO PROTON VPN
+--------------------------
+
+1. Abrir o Proton VPN.
+2. Entrar na conta.
+3. Ativar a conexao automatica.
+4. Configurar o Kill Switch como Standard ou Off.
+5. Nao utilizar Advanced.
+
+
+COMO USAR
+---------
+
+1. Baixar automacao-proton-discord-v1.0.0.zip.
+2. Extrair todos os arquivos.
+3. Abrir o Discord Desktop.
+4. Executar executar.bat.
+5. Confirmar a solicitacao de administrador.
+6. Aguardar o processo terminar.
+7. Voltar ao Discord.
+8. Iniciar a transmissao normalmente.
+
+
+IMPORTANTE
+----------
+
+- Nao executar o BAT de dentro do ZIP;
+- Nao fechar o Proton durante a execucao;
+- A automacao nao inicia a transmissao;
+- O processo ProtonVPNService pode continuar no Gerenciador de Tarefas.
+
+
+SE A INTERNET PARAR
+-------------------
+
+1. Abrir o Proton VPN.
+2. Conectar novamente.
+3. Alterar o Kill Switch para Standard ou Off.
+4. Desconectar usando o botao do Proton.

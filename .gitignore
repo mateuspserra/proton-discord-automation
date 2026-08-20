@@ -1,0 +1,26 @@
+# Configurações de editores
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos do sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Arquivos de teste locais
+test-output/
+debug-output/
+
+# Pacotes de release
+dist/
